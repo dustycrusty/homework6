@@ -9,7 +9,6 @@ var volumeSpan = function() {
 
 window.addEventListener("load", function() {
 	video = document.querySelector("#myVideo");
-	volumeSpan();
 });
 
 document.querySelector("#play").addEventListener("click", function() {
